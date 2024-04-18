@@ -4,48 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to My Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="bg-dark text-light py-4">
+        <div class="container">
+            <h1 class="text-center">Welcome to My Website</h1>
+            <nav class="text-center">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a class="text-light" href="#about">About Me</a></li>
+                    <li class="list-inline-item"><a class="text-light" href="#projects">Projects</a></li>
+                    <li class="list-inline-item"><a class="text-light" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Welcome to my GitHub Pages website! I'm excited to share my projects and experiences with you.</p>
-            <p>My name is Houssam Boughdadi and I'm a student at Campus Mölndal. <br>I'm currently studying Cloud Development and I'm a big passionate about learning new technologies and building cool projects.<br> I'm excited to connect with other developers and learn from each other.</p>
-            <!-- You can add more content about yourself here -->
-        </section>
+    <main class="py-4">
+        <div class="container">
+            <section id="about">
+                <h2 class="mb-4">About Me</h2>
+                <p>Welcome to my GitHub Pages website! I'm excited to share my projects and experiences with you.</p>
+                <p>My name is Houssam Boughdadi and I'm a student at Campus Mölndal. <br>I'm currently studying Cloud Development and I'm passionate about learning new technologies and building cool projects. I'm excited to connect with other developers and learn from each other.</p>
+                <!-- You can add more content about yourself here -->
+            </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>Check out some of my latest projects below:</p>
-            <p>Project 1: <a href="#">Soon to be added</a></p>
-            <!-- Add your projects or project links here -->
-        </section>
+            <section id="projects">
+                <h2 class="mb-4">Projects</h2>
+                <p>Check out some of my latest projects below:</p>
+                <p>Project 1: <a href="#">Soon to be added</a></p>
+                <!-- Add your projects or project links here -->
+            </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Feel free to reach out to me:</p>
-            <p>Email: houbou98@gmail.com</p>
-            <p>Phone: (+46)70 43 92 158 </p>
-            <!-- Add your contact information here -->
-        </section>
+            <section id="contact">
+                <h2 class="mb-4">Contact</h2>
+                <p>Feel free to reach out to me:</p>
+                <p>Email: houbou98@gmail.com</p>
+                <p>Phone: (+46)70 43 92 158 </p>
+                <!-- Add your contact information here -->
+            </section>
+        </div>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Houssam Boughdadi</p>
+    <footer class="bg-dark text-light py-2">
+        <div class="container text-center">
+            <p>&copy; 2024 Houssam Boughdadi</p>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
